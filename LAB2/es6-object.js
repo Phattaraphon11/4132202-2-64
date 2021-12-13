@@ -1,28 +1,29 @@
 //es6-object.js
-let preson = {
-    name "Phattaraphon",
-    age:20,
-    eyecolor: "black",
-    function () => {
-        return ${preson name} : ${preson.age;};
+let person = {
+    name: "Pink",
+    age: 20,
+    eyecolor: "Red",
+    fullname: () => {
+        return` ${person.name} : ${person.age}`;
     },
 };
 
 const x = person;
-x age = 30;
+x.age = 30;
 console.log(person.age);
 console.log(x.fullname());
 
+const numbers = [10,20,30];
 function addFn(...num) {
-    iet sum=0;
-    for(vale of num) sum += value;
+    let sum=0;
+    for (value of num) sum += parseInt(value);
     return sum;
 }
-console.log(addFu(10, 20, 30, 40));
+console.log(addFn(10, 20, 30, 40));
 
-const [a, b] = [10,20,30];
+//destructuring
+const [a,b] = [10, 20, 30];
 console.log(b);
 
-
-const {name: rName, age} = person;
-console.log(rName);
+const {name:rname, age} = person;
+console.log(rname);
