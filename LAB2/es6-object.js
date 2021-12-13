@@ -14,15 +14,15 @@ console.log(person.age);
 console.log(x.fullname());
 
 function addFn(...num) {
-    let sum = 0;
-    for (value of num) sum += perseInt(value);
+    iet sum=0;
+    for(vale of num) sum += value;
     return sum;
 }
-console.log(addFn(10,20,30,40));
+console.log(addFu(10, 20, 30, 40));
 
-//destructuring
-const [a,b] = [10,20,30];
+const [a, b] = [10,20,30];
 console.log(b);
 
-const {name:rName,age}= person;
-console.log(rName)
+
+const {name: rName, age} = person;
+console.log(rName);
