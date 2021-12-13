@@ -21,3 +21,11 @@ console.log(cars);
 
 const slideArr = cars.slice(0, 2);
 console.log(slideArr);
+
+let first = numbers.find(over10fn);
+console.log(first);
+let firstKey = numbers.findIndex(over10fn);
+console.log(firstKey);
+
+const alphabet = Array.from("ABCDEF");
+console.log(alphabet);
